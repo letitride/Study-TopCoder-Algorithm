@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         String[] first = { "f", "g", "s", "f" };
         String[] second = {"h", "f", "f", "b"};
-        //配列の中の値が最も多いものの数を返す。
+        //配列の中の値が最も存在するものの数を返す。上記の場合、"f"が4つ。
         System.out.println( InterestingParty.bestInvitation(first, second) );
     }
 }
